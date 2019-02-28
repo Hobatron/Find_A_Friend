@@ -15,7 +15,7 @@ app.use(express.json());
 app.get("/", function (req, res) {
     //res.sendFile(path.join(__dirname, "view.html"));
     console.log('success')
-    res.send('Success');
+    res.send('Success on port: ' + PORT);
 });
 
 
