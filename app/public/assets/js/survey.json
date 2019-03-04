@@ -1,0 +1,464 @@
+{
+    "pages": [{
+            "name": "page1",
+            "elements": [{
+                    "type": "rating",
+                    "name": "question1",
+                    "title": "I like to stay home.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question2",
+                    "title": "I like to make definite plans when going out.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question3",
+                    "title": "I avoid public speaking whenever possible.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question4",
+                    "title": "I work best in a group or with others.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question5",
+                    "title": "I like to fix things more than I like to try and fix people.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "page2",
+            "elements": [{
+                    "type": "rating",
+                    "name": "question6",
+                    "title": "I like tests that have essay questions.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question7",
+                    "title": "I prefer to use logic and reason in my thinking first and foremost.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question8",
+                    "title": "I like to improvise whenever possible.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question9",
+                    "title": "Morality should be based on justice.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question10",
+                    "title": "I like to know the \"why\" of things.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "page3",
+            "elements": [{
+                    "type": "rating",
+                    "name": "question11",
+                    "title": "I largely accept things as they are.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question12",
+                    "title": " I procrastinate more than I should.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question13",
+                    "title": "I'm largely uncomfortable with my emotions.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question14",
+                    "title": "I'm bored being alone.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question15",
+                    "title": "I like to be focused on the future.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "page4",
+            "elements": [{
+                    "type": "rating",
+                    "name": "question16",
+                    "title": "I like to talk more than I listen.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question17",
+                    "title": "My life is pretty chaotic.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question18",
+                    "title": "Parties wear me out pretty quickly.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question19",
+                    "title": "I feel I'm more energetic than laid-back.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                },
+                {
+                    "type": "rating",
+                    "name": "question20",
+                    "title": "I like to keep my room clean.",
+                    "isRequired": true,
+                    "rateValues": [{
+                        "values": "1",
+                        "text": "Strongly Disagree"
+                    }, {
+                        "values": "2",
+                        "text": "Disagree"
+                    }, {
+                        "values": "3",
+                        "text": "Neutral"
+                    }, {
+                        "values": "4",
+                        "text": "Agree"
+                    }, {
+                        "values": "5",
+                        "text": "Strongly Agree"
+                    }]
+                }, {
+                    "type": "text",
+                    "name": "question21",
+                    "title": "What's your name?",
+                    "valueName": "userName"
+                }
+            ]
+        }
+    ]
+}
