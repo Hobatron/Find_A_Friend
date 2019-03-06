@@ -3,11 +3,16 @@ $.get('assets/survey.json', data => {
     loadModel(data);
 })
 Survey.Survey.cssType = "bootstrap";
-console.log(Survey)
 
 function sendDataToServer(survey) {
-    //send Ajax request to your web server.
-    alert("The results are:" + JSON.stringify(survey.data));
+    $.ajax({
+        type: "POST",
+        url: '/api/results',
+        data: survey.data,
+        success: function () {
+            console.log('data sent: ' + survey.data);
+        },
+    });
 }
 
 function loadModel(surveyJSON) {

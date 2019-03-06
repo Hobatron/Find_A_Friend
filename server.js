@@ -1,5 +1,8 @@
 var express = require("express");
 var path = require("path");
+var friendFinder = require('./app/data/friendFinder');
+var sanitize = require('./sanitize')
+var db = require('./app/data/database')
 
 // Sets up the Express App
 // =============================================================
@@ -22,11 +25,14 @@ app.use(express.json());
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./app/public/home.html"));
 });
-
 app.get("/survey", function (req, res) {
   res.sendFile(path.join(__dirname, "./app/public/survey.html"));
 });
-
+app.post("/api/results", function (req, res) {
+  var userInputs = sanitize(req.body);
+  var results = friendFinder(userInputs, db);
+  console.log(results)
+})
 
 
 
