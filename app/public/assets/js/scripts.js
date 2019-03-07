@@ -6,13 +6,15 @@ Survey.Survey.cssType = "bootstrap";
 
 function sendDataToServer(survey) {
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: '/api/results',
         data: survey.data,
         success: function () {
             console.log('data sent: ' + survey.data);
         },
-    });
+    }).then(results => {
+        console.log(results)
+    })
 }
 
 function loadModel(surveyJSON) {
@@ -21,4 +23,4 @@ function loadModel(surveyJSON) {
         model: survey,
         onComplete: sendDataToServer
     });
-}
+} 
