@@ -140,7 +140,7 @@
                 {
                     "type": "rating",
                     "name": "question7",
-                    "title": "I prefer to use logic and reason in my thinking first and foremost.",
+                    "title": "I use logic and reason in my thinking first and foremost.",
                     "isRequired": true,
                     "rateValues": [{
                         "values": "1",

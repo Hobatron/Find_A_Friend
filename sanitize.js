@@ -11,6 +11,5 @@ module.exports = function (nameAndQuestions) {
             }
         }
     }
-
     return sanitizedObj;
 }

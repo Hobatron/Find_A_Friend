@@ -7,9 +7,9 @@ module.exports = function (newUser, db) {
             oldUserAnswer = db[i][j].values;
             newUserAnswer = newUser.surveyAnswers[j].values;
             if (newUserAnswer - oldUserAnswer == 0) {
-                score -= 3;
+                score -= 8;
             } else {
-                score += Math.abs(newUserAnswer - oldUserAnswer) * 2;
+                score += Math.abs(newUserAnswer - oldUserAnswer) * 5;
             }
         }
         if (score < currentBestMatch[0]) {
@@ -17,5 +17,6 @@ module.exports = function (newUser, db) {
             currentBestMatch[1] = db[i];
         }
     }
+    currentBestMatch = currentBestMatch[1];
     return currentBestMatch;
 }

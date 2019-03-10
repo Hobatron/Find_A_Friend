@@ -1,8 +1,9 @@
 var express = require("express");
 var path = require("path");
 var friendFinder = require('./app/data/friendFinder');
-var sanitize = require('./sanitize')
-var db = require('./app/data/database')
+var sanitize = require('./sanitize');
+var db = require('./seedDB.js');
+db = db();
 
 // Sets up the Express App
 // =============================================================
@@ -31,7 +32,7 @@ app.get("/survey", function (req, res) {
 app.post("/api/results", function (req, res) {
   var userInputs = sanitize(req.body);
   var results = friendFinder(userInputs, db);
-  console.log(results)
+  res.json(results);
 })
 
 
