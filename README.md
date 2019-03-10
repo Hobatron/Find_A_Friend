@@ -11,10 +11,10 @@ This site is designed to showcase a simple matching algorithm based on 20 questi
 ## Running the website:
     1. Navigate to localhost:8080
     2. Should state: 
-    ```
-    'Randomly generated x new users'
-    'App listening on PORT 8080'
-    ```
+```
+'Randomly generated x new users'
+'App listening on PORT 8080'
+ ```
     
 ## To add questions:
     1. Review & edit /app/public/assets/js/survey.js
