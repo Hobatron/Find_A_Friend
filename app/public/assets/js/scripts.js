@@ -24,7 +24,6 @@ function loadModel(data) {
 function loadReultsView(match, user) {
     //HTML INJECTION FOR RESULTS
     var answerText = ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree'];
-    console.log(match, user);
     var survey = $('#surveyContainer');
     survey.empty();
     survey.text('Thank you for completing the survey, here\'s your new friend!');
@@ -76,8 +75,6 @@ function addClasses(i, absAnswerDiffrencesForCSSColoring) {
     //BOOTSTRAP STYLING FOR LONG AND SHORT ANSWERS - THANKS BOOTSTRAP >:|
     ta = $('#ta' + i + 't');
     ya = $('#ya' + i + 't');
-
-    console.log(ya.text())
     var answerClasses = {
         long: ['col-2 d-flex align-items-center', 'text-center'],
         short: ['col-2 d-flex justify-content-center', 'align-self-center']
