@@ -10,11 +10,10 @@ db = db();
 var app = express();
 var PORT = process.env.PORT || 8080;
 // Add our JS+CSS+IMGS+Fonts
-var filesToAdd = ['css', 'js', 'imgs', 'fonts']
-
+var filesToAdd = ['css', 'js', 'imgs', 'fonts'];
 for (var i in filesToAdd) {
   app.use('/assets', express.static(__dirname + "/app/public/assets/" + filesToAdd[i]));
-}
+};
 
 
 // Sets up the Express app to handle data parsing
@@ -34,7 +33,7 @@ app.post("/api/results", function (req, res) {
   var userInputs = sanitize(req.body);
   var results = friendFinder(userInputs, db);
   res.json(results);
-})
+});
 
 
 

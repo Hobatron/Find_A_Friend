@@ -9,7 +9,7 @@ function sendDataToServer(survey) {
         url: '/api/results',
         data: survey.data,
     }).then(results => {
-        loadReultsView(results, survey.data)
+        loadResultsView(results, survey.data)
     })
 }
 
@@ -21,7 +21,7 @@ function loadModel(data) {
     });
 }
 
-function loadReultsView(match, user) {
+function loadResultsView(match, user) {
     //HTML INJECTION FOR RESULTS
     var answerText = ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree'];
     var survey = $('#surveyContainer');
@@ -73,8 +73,8 @@ function loadReultsView(match, user) {
 
 function addClasses(i, absAnswerDiffrencesForCSSColoring) {
     //BOOTSTRAP STYLING FOR LONG AND SHORT ANSWERS - THANKS BOOTSTRAP >:|
-    ta = $('#ta' + i + 't');
-    ya = $('#ya' + i + 't');
+    ta = $('#ta' + i + 't'); //their answer
+    ya = $('#ya' + i + 't'); //your answer
     var answerClasses = {
         long: ['col-2 d-flex align-items-center', 'text-center'],
         short: ['col-2 d-flex justify-content-center', 'align-self-center']
@@ -122,90 +122,90 @@ function addClasses(i, absAnswerDiffrencesForCSSColoring) {
 
 //Uncomment this code to skip the survey with default answers (NOTE:Restarting the server generates a new database of users[suggested rather than saving a static JSON db from D. Vu])
 
-var survey = {}
+// var survey = {}
 
-survey.data = {
-    question1: {
-        values: "5",
-        text: "Strongly Agree"
-    },
-    question2: {
-        values: "4",
-        text: "Agree"
-    },
-    question3: {
-        values: "3",
-        text: "Neutral"
-    },
-    question4: {
-        values: "4",
-        text: "Agree"
-    },
-    question5: {
-        values: "3",
-        text: "Neutral"
-    },
-    question6: {
-        values: "4",
-        text: "Agree"
-    },
-    question7: {
-        values: "3",
-        text: "Neutral"
-    },
-    question8: {
-        values: "4",
-        text: "Agree"
-    },
-    question9: {
-        values: "4",
-        text: "Agree"
-    },
-    question10: {
-        values: "4",
-        text: "Agree"
-    },
-    question11: {
-        values: "3",
-        text: "Neutral"
-    },
-    question12: {
-        values: "4",
-        text: "Agree"
-    },
-    question13: {
-        values: "3",
-        text: "Neutral"
-    },
-    question14: {
-        values: "4",
-        text: "Agree"
-    },
-    question15: {
-        values: "4",
-        text: "Agree"
-    },
-    question16: {
-        values: "4",
-        text: "Agree"
-    },
-    question17: {
-        values: "4",
-        text: "Agree"
-    },
-    question18: {
-        values: "4",
-        text: "Agree"
-    },
-    question19: {
-        values: "4",
-        text: "Agree"
-    },
-    question20: {
-        values: "4",
-        text: "Agree"
-    },
-    userName: "Tani"
-}
+// survey.data = {
+//     question1: {
+//         values: "5",
+//         text: "Strongly Agree"
+//     },
+//     question2: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question3: {
+//         values: "3",
+//         text: "Neutral"
+//     },
+//     question4: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question5: {
+//         values: "3",
+//         text: "Neutral"
+//     },
+//     question6: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question7: {
+//         values: "3",
+//         text: "Neutral"
+//     },
+//     question8: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question9: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question10: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question11: {
+//         values: "3",
+//         text: "Neutral"
+//     },
+//     question12: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question13: {
+//         values: "3",
+//         text: "Neutral"
+//     },
+//     question14: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question15: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question16: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question17: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question18: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question19: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     question20: {
+//         values: "4",
+//         text: "Agree"
+//     },
+//     userName: "Tani"
+// }
 
-sendDataToServer(survey)
+// sendDataToServer(survey)
